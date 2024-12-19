@@ -33,6 +33,9 @@ store_id, product_id, date, quantity_sold, price, day_of_week, month, year
 1, 102, 2022-01-01, 30, 9.99, Saturday, 1, 2022
 ...
 
+##License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 ##Project Structure
 Retail-Demand-Forecasting/
 │
@@ -55,5 +58,4 @@ Retail-Demand-Forecasting/
 ├── requirements.txt          # Python dependencies
 └── README.md                 # Project description and instructions
 
-##License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
