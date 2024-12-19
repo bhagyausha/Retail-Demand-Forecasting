@@ -32,3 +32,25 @@ store_id, product_id, date, quantity_sold, price, day_of_week, month, year
 1, 101, 2022-01-01, 50, 19.99, Saturday, 1, 2022
 1, 102, 2022-01-01, 30, 9.99, Saturday, 1, 2022
 ...
+
+##Project Structure
+Retail-Demand-Forecasting/
+│
+├── data/
+│   ├── raw_data.csv          # Raw sales data (for example)
+│   ├── processed_data.csv    # Cleaned and processed data
+│
+├── notebooks/
+│   ├── 01_data_exploration.ipynb    # Data exploration and cleaning
+│   ├── 02_feature_engineering.ipynb  # Feature engineering and preprocessing
+│   ├── 03_model_building.ipynb      # Building the demand forecasting model
+│   ├── 04_evaluation_and_forecasting.ipynb  # Evaluating and making forecasts
+│
+├── scripts/
+│   ├── data_cleaning.py       # Script to clean and preprocess the data
+│   ├── feature_engineering.py # Feature engineering script
+│   ├── model.py              # Script for building and training the model
+│   ├── forecast.py           # Script for making future predictions
+│
+├── requirements.txt          # Python dependencies
+└── README.md                 # Project description and instructions
