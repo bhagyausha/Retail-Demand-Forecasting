@@ -102,13 +102,14 @@ df.to_csv('processed_sales_data_with_predictions.csv', index=False)
 ## Model
 This project uses a Linear Regression model for sales prediction, but other models such as Random Forest or XGBoost can be tested for better performance. 
 The model is trained on historical data, and the features are carefully chosen to capture the temporal nature of sales trends.
-  # Model type: Linear Regression
-  # Features used: Date, stock, price, rolling, and lag sales.
+  #### Model type: Linear Regression
+  #### Features used: Date, stock, price, rolling, and lag sales.
 
 ## Contributing
 Feel free to fork the repository, submit issues, and create pull requests if you'd like to contribute improvements or bug fixes!
 
 ## Project Structure
+```
 Retail-Demand-Forecasting/
 │
 ├── data/                    # Directory for raw and processed data files
@@ -136,6 +137,7 @@ Retail-Demand-Forecasting/
 ├── README.md                # Project overview and instructions (this file)
 ├── LICENSE                  # License information (e.g., MIT License)
 └── .gitignore               # Git ignore file (e.g., to ignore data, model, and environment files)
+```
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
