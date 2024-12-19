@@ -54,3 +54,6 @@ Retail-Demand-Forecasting/
 │
 ├── requirements.txt          # Python dependencies
 └── README.md                 # Project description and instructions
+
+##License
+This project is licensed under the MIT License - see the LICENSE file for details.
